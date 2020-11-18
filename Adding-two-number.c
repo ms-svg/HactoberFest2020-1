@@ -45,3 +45,22 @@ void main(){
     printf("Result of addition of two numbers:%f",n1+n2);
     
 }
+// created by manpreet
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+	Scanner S = new Scanner(System.in);
+	System.out.println("Enter number 1");
+	int a = S.nextInt();
+	Scanner S1 = new Scanner(System.in);
+	System.out.println("Enter number 2");
+	int b = S1.nextInt();
+	int sum = a+b;
+	System.out.println("the sum of both numbers is");
+	System.out.println(sum);   
+	    
+	    
+	    
+	
